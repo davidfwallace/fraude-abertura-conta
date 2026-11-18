@@ -1,0 +1,9 @@
+# Dependências do projeto (testado com Python 3.12, 3.13 e 3.14)
+# Instalação: pip install -r requirements.txt
+
+numpy==2.3.4
+pandas==2.3.3
+pyarrow==22.0.0        # leitura/escrita de Parquet
+matplotlib==3.10.7
+kagglehub==1.0.3       # download da base
+ipykernel==7.4.0       # executar os notebooks no VS Code / Jupyter
