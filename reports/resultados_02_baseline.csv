@@ -1,0 +1,11 @@
+modelo,fold,recall@5%FPR,PR-AUC,ROC AUC
+ingênuo (credit_risk_score),0–2 → 3,0.2284,0.0269,0.7063
+ingênuo (credit_risk_score),0–3 → 4,0.2176,0.0319,0.6884
+ingênuo (credit_risk_score),0–4 → 5,0.1928,0.0315,0.6592
+ingênuo (credit_risk_score),média,0.2130,0.0301,0.6846
+ingênuo (credit_risk_score),desvio padrão,0.0183,0.0028,0.0237
+regressão logística,0–2 → 3,0.5402,0.1398,0.9040
+regressão logística,0–3 → 4,0.5317,0.1517,0.8997
+regressão logística,0–4 → 5,0.5096,0.1612,0.8845
+regressão logística,média,0.5272,0.1509,0.8961
+regressão logística,desvio padrão,0.0158,0.0107,0.0103
