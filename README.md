@@ -273,4 +273,4 @@ A saída traz a probabilidade de fraude e a indicação de revisão para cada pe
 
 ---
 
-**Autor:** João — estudante do Centro de Informática (CIn) da UFPE.
+**Autor:** João Gustavo G. Pires — estudante de Engenharia da Computação no Centro de Informática (CIn) da UFPE · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-gustavo-pires-724034260/)
