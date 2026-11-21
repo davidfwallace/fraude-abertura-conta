@@ -1,0 +1,6 @@
+modelo,FPR realizada (folds),maior desvio da FPR (p.p.),recall realizado (média),FPR < 50 anos,FPR ≥ 50 anos,razão de FPR
+lightgbm #11,8.9% / 6.5% / 4.1%,3.8857,0.6197,0.0348,0.1183,0.2949
+lightgbm #19,9.2% / 6.7% / 4.1%,4.2214,0.6177,0.0356,0.1146,0.3113
+mlp #02,7.4% / 6.2% / 3.6%,2.3697,0.5665,0.0333,0.1251,0.2665
+regressão logística #04,7.6% / 6.0% / 3.2%,2.6172,0.5524,0.0338,0.1225,0.2772
+svm (rbf aproximado) #02,8.3% / 6.6% / 3.7%,3.2591,0.5682,0.0321,0.1303,0.2471

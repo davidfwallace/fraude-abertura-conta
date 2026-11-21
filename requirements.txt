@@ -10,3 +10,5 @@ scikit-learn==1.8.0    # pré-processamento, regressão logística, métricas
 imbalanced-learn==0.14.2   # undersampling dentro do pipeline (só no treino)
 kagglehub==1.0.3       # download da base
 ipykernel==7.4.0       # executar os notebooks no VS Code / Jupyter
+lightgbm==4.7.0        # gradient boosting
+scipy==1.18.1
