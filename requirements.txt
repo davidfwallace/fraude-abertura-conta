@@ -7,5 +7,6 @@ jinja2==3.1.6          # formatação de tabelas (pandas .style)
 pyarrow==22.0.0        # leitura/escrita de Parquet
 matplotlib==3.10.7
 scikit-learn==1.8.0    # pré-processamento, regressão logística, métricas
+imbalanced-learn==0.14.2   # undersampling dentro do pipeline (só no treino)
 kagglehub==1.0.3       # download da base
 ipykernel==7.4.0       # executar os notebooks no VS Code / Jupyter
