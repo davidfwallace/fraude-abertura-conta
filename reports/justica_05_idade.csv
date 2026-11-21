@@ -1,0 +1,8 @@
+,limiar único (5% de FPR global),limiar por grupo (5% de FPR em cada)
+FPR < 50 anos,0.0375,0.0500
+recall < 50 anos,0.4754,0.5294
+FPR ≥ 50 anos,0.1148,0.0500
+recall ≥ 50 anos,0.6896,0.5015
+razão de FPR,0.3264,0.9998
+FPR global,0.0500,0.0500
+recall global,0.5490,0.5198

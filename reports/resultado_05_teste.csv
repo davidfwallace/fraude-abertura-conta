@@ -1,0 +1,7 @@
+modelo,conjunto,recall@5%FPR,PR-AUC,ROC AUC
+LightGBM (modelo final),teste (meses 6–7),0.5490,0.1964,0.8955
+LightGBM (modelo final),mês 6,0.5248,0.1811,0.8943
+LightGBM (modelo final),mês 7,0.5798,0.2177,0.8974
+Regressão logística (régua),teste (meses 6–7),0.5101,0.1677,0.8843
+Regressão logística (régua),mês 6,0.5083,0.1582,0.8829
+Regressão logística (régua),mês 7,0.5392,0.1881,0.8879

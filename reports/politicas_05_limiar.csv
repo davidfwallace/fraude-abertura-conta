@@ -1,0 +1,7 @@
+política,mês,FPR,recall,precisão,alertas por 10 mil pedidos
+"(a) limiar fixo, calculado no treino",6,0.0629,0.5710,0.1099,696.6940
+"(a) limiar fixo, calculado no treino",7,0.0532,0.5903,0.1424,611.5052
+"(b) limiar fixo, calibrado fora do treino",6,0.0652,0.5828,0.1083,721.5628
+"(b) limiar fixo, calibrado fora do treino",7,0.0552,0.5917,0.1382,631.4344
+(c) orçamento: 5.5% mais suspeitos do mês,6,0.0489,0.5241,0.1270,553.0286
+(c) orçamento: 5.5% mais suspeitos do mês,7,0.0476,0.5714,0.1524,552.9568

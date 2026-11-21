@@ -1,0 +1,46 @@
+{
+  "modelo": "LightGBM — candidato #11 da busca aleatória (notebook 04), com scale_pos_weight = 1",
+  "hiperparametros": {
+    "colsample_bytree": 0.5070399113575422,
+    "learning_rate": 0.018142616985100158,
+    "min_child_samples": 100,
+    "n_estimators": 518,
+    "num_leaves": 47,
+    "reg_lambda": 0.2653627132902634,
+    "scale_pos_weight": 1,
+    "subsample": 0.6792328642721364
+  },
+  "undersampling": false,
+  "treino": {
+    "meses": [
+      0,
+      5
+    ],
+    "linhas": 794989,
+    "taxa_fraude": 0.010252972053701372
+  },
+  "validacao_temporal_3_folds": {
+    "recall_5fpr": 0.5665,
+    "pr_auc": 0.1779,
+    "roc_auc": 0.9081
+  },
+  "teste": {
+    "meses": [
+      6,
+      7
+    ],
+    "recall@5%FPR": 0.5489923558026407,
+    "PR-AUC": 0.19638281270615263,
+    "ROC AUC": 0.8955184273139063
+  },
+  "politica_limiar": {
+    "tipo": "orçamento: revisar a fração mais suspeita de cada lote",
+    "orcamento": 0.05529566006573677
+  },
+  "versoes": {
+    "python": "3.14.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "pandas": "2.3.3"
+  }
+}
