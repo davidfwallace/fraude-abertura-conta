@@ -52,7 +52,7 @@ def rodar_busca(candidatos, fabricas, caminho_treino, arquivo, n_processos=3):
     arquivo = Path(arquivo)
     feitos = set(pd.read_csv(arquivo)["id"]) if arquivo.exists() else set()
     pendentes = [c for c in candidatos if c["id"] not in feitos]
-    print(f"{len(feitos)} já feitos, {len(pendentes)} pendentes")
+    print(f"{len(candidatos) - len(pendentes)} já feitos, {len(pendentes)} pendentes")
 
     inicio = time.time()
     execucao = Parallel(n_jobs=n_processos, return_as="generator_unordered")(
